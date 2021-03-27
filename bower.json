@@ -1,0 +1,31 @@
+{
+  "name": "experiment",
+  "description": "",
+  "authors": [
+    "Darshan Patel <ddpatel97@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularjs",
+    "experiment",
+    "playpower"
+  ],
+  "main": [
+    "./dist/experimental-components.tpls.js",
+    "./dist/angular-experimental.css"
+  ],
+  "private": true,
+  "ignore": [
+    "config",
+    "node_modules",
+    "playground",
+    "src",
+    "test",
+    ".travis.yml",
+    ".gitignore",
+    ".jshintrc",
+    "CHANGELOG.md",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}

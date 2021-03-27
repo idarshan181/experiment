@@ -1,0 +1,42 @@
+// Mix-ins
+.borderRadius(@radius) {
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+    border-radius: @radius;
+  }
+  
+  .boxShadow(@boxShadow) {
+    -moz-box-shadow: @boxShadow;
+    -webkit-box-shadow: @boxShadow;
+    box-shadow: @boxShadow;
+  }
+  
+  // Variables
+  @black: #000000;
+  @grey: #999999;
+  @light-grey: #CCCCCC;
+  @white: #FFFFFF;
+  @near-black: #030303;
+  @green: #51A351;
+  @red: #BD362F;
+  @blue: #2F96B4;
+  @orange: #F89406;
+  
+  // Styles
+  .page-title {
+    font-weight: bold;
+  }
+  
+  .page-message {
+    word-wrap: break-word;
+  
+    a,
+    label {
+      color: @white;
+    }
+  
+    a:hover {
+      color: @light-grey;
+      text-decoration: none;
+    }
+  }

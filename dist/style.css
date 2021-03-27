@@ -1,0 +1,14 @@
+.page-title {
+  font-weight: bold;
+}
+.page-message {
+  word-wrap: break-word;
+}
+.page-message a,
+.page-message label {
+  color: #FFFFFF;
+}
+.page-message a:hover {
+  color: #CCCCCC;
+  text-decoration: none;
+}
