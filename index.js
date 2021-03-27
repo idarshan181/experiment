@@ -1,2 +1,2 @@
 require('./dist/experimental-components.tpls.js');
-module.exports = 'experiment';
+module.exports = 'dsexperiment';
