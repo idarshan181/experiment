@@ -7,7 +7,9 @@
         experiment.$inject = ['experimentConfig'];
         function experiment() {
 
-            console.log(experimentConfig);
+            function printMsg(){
+                console.log("Sample Message from Package");
+            }
 
         }
 });
